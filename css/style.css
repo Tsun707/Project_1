@@ -18,13 +18,11 @@ nav ul li{
 	float: left;
 	padding: 20px 40px;
 	margin: 0;
-	border: solid;
-	
-		
+	border: solid;	
 }
 	
 header nav ul li a{
-	
-	text-decoration: none
+	text-decoration: none;
+	font-family: kanit
 	
 }
