@@ -1,4 +1,8 @@
-
+body{
+	width: 90%;
+	margin-left: autoo;
+	margin-right: auto;
+}
 header{
 	background-color: grey;
 	overflow: hidden;
@@ -66,13 +70,20 @@ section{
 	float: right;
 	width: 50%;
 	left: 30%;
-	top: 21%;
+	top: 14%;
 	position: absolute;
 	display: block;
 	border: solid;
 }
+#education ol li{
+	list-style-type: none;
+	padding: 6px 0px;
+	margin: 0;
+	
+} 
 
 #contact-information{
 	width: 30%;
 	border: solid;
+	display: block;
 }
