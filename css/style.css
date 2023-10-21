@@ -1,28 +1,78 @@
+
 header{
 	background-color: grey;
 	overflow: hidden;
 	width: 100%;
+	border: solid;
 }
-
 
 nav ul{
 	list-style-type: none;
 	margin: 0;
     padding: 0;
     position: relative;
-	border: solid;
+	
 	
 }
 
 nav ul li{
 	float: left;
-	padding: 20px 40px;
+	padding: 10px 40px;
 	margin: 0;
-	border: solid;	
+	display: block;
 }
 	
 header nav ul li a{
 	text-decoration: none;
-	font-family: kanit
-	
+	font-family: kanit;
+	font-size: 25px;
+	color: white;	
+}
+#home:hover{
+	background-color: #3083DC;
+	color: white;
+	-webkit-text-fill-color: red;
+	font-weight: 0;
+	-webkit-text-stroke: 1px #fff44f;	
+}
+
+#resume:hover{
+	background-color: white;
+	color: white;
+	-webkit-text-fill-color: red;
+	font-weight: 0;
+	-webkit-text-stroke: 1px #fff44f;	
+}
+
+#Sarajevo-Statue:hover{
+	background-color: red;
+	color: white;
+	-webkit-text-fill-color: red;
+	font-weight: 0;
+	-webkit-text-stroke: 1px #fff44f;
+}
+
+section{
+	margin: 40px;
+	border: solid;
+}
+
+.title{
+	font-family: kanit; 
+	font-weight: 1400;
+}
+
+#education{
+	float: right;
+	width: 50%;
+	left: 30%;
+	top: 21%;
+	position: absolute;
+	display: block;
+	border: solid;
+}
+
+#contact-information{
+	width: 30%;
+	border: solid;
 }
