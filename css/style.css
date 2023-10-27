@@ -10,6 +10,25 @@ header{
 	border: solid;
 }
 
+section{
+	margin: 40px;
+	font-family: kanit; 
+	font-weight: 300;
+}
+	
+img{
+	outline: solid;
+	margin: 0px 20px 0px 0px;
+	padding: 0;
+	float: left;
+	display: block;
+}
+
+iframe{
+	display: block;
+	float: left;
+}
+
 nav ul{
 	list-style-type: none;
 	margin: 0;
@@ -30,6 +49,12 @@ header nav ul li a{
 	font-size: 25px;
 	color: white;	
 }
+
+.title{
+	font-family: kanit; 
+	font-weight: 1000;
+}
+
 #home:hover{
 	background-color: #3083DC;
 	color: white;
@@ -52,17 +77,6 @@ header nav ul li a{
 	-webkit-text-fill-color: red;
 	font-weight: 0;
 	-webkit-text-stroke: 1px #fff44f;
-}
-
-section{
-	margin: 40px;
-	font-family: kanit; 
-	font-weight: 300;
-}
-
-.title{
-	font-family: kanit; 
-	font-weight: 1000;
 }
 
 #education{
@@ -97,23 +111,10 @@ section{
 	margin: 40px;
 }
 
-img{
-	outline: solid;
-	margin: 0px 20px 0px 0px;
-	padding: 0;
-	float: left;
-	display: block;
-}
-
 #oldman{
 	float: left;
 	margin: 10px 0px;
 	display: block;
-}
-
-iframe{
-	display: block;
-	float: left;
 }
 
 #blalkans{
