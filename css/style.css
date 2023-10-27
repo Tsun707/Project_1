@@ -17,7 +17,7 @@ section{
 }
 	
 img{
-	outline: solid;
+	
 	margin: 0px 20px 0px 0px;
 	padding: 0;
 	float: left;
@@ -112,9 +112,23 @@ header nav ul li a{
 }
 
 #oldman{
+	float: right;
+	margin: 10px 0px;
+	display: block;
+	width: 50%
+}
+
+#runbywall{
 	float: left;
 	margin: 10px 0px;
 	display: block;
+	width: 50%
+}
+
+#runbywall p{
+	float:left;
+	margin: 0;
+	width: 50%;
 }
 
 #blalkans{
