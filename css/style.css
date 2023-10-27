@@ -57,7 +57,9 @@ header nav ul li a{
 }
 
 section{
-	margin: 40px;	
+	margin: 40px;
+	font-family: kanit; 
+	font-weight: 300;
 }
 
 .title{
@@ -95,4 +97,35 @@ section{
 	font-family: kanit;
 	font-weight:300;
 	margin: 40px;
+}
+
+img{
+	outline: solid;
+	margin: 0px 20px 0px 0px;
+	padding: 0;
+	float: left;
+	display: block;
+}
+
+#oldman{
+	float: left;
+	margin: 10px 0px;
+	display: block;
+}
+
+iframe{
+	display: block;
+	float: left;
+}
+
+#blalkans{
+	display: block;
+	width: 60%;
+	margin: 5% 0% 5% 0%;
+	float: right;
+}
+
+#counties{
+    display: block;
+	float: left;
 }
